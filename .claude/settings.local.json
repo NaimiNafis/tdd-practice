@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.theodinproject.com)",
+      "WebSearch",
+      "Bash(pip install *)",
+      "Bash(pytest --tb=short)",
+      "Bash(python3 -m pip install pytest -q)",
+      "Bash(python3 -m pytest --tb=short)",
+      "Bash(python3 -m pip install pytest -q --break-system-packages)",
+      "Bash(python3 -m pytest /Users/naiminfs/repos/tdd-practice --tb=short)",
+      "Bash(python3 -m pytest 01_capitalize/ -v)",
+      "Bash(python3 -m pytest /Users/naiminfs/repos/tdd-practice/01_capitalize/ -v)",
+      "Bash(python3 -m pytest /Users/naiminfs/repos/tdd-practice/01_capitalize/ /Users/naiminfs/repos/tdd-practice/02_reverse_string/ /Users/naiminfs/repos/tdd-practice/03_calculator/ -v)"
+    ]
+  }
+}
